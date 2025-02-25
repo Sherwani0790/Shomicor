@@ -55,9 +55,9 @@
     arrows: true,
     rows: 2,
     prevArrow:
-      '<button class="prev_arrow"><i class="ion-chevron-left"></i></button>',
+      '<button class="prev_arrow"><i class="fa-solid fa-chevron-left arrow-left"></i></button>',
     nextArrow:
-      '<button class="next_arrow"><i class="ion-chevron-right"></i></button>',
+      '<button class="next_arrow"><i class="fa-solid fa-chevron-right arrow-right"></i></button>',
     responsive: [
       {
         breakpoints: 400,
@@ -107,9 +107,9 @@
     slidesToShow: 5,
     arrows: true,
     prevArrow:
-      '<button class="prev_arrow"><i class="ion-chevron-left"></i></button>',
+      '<button class="prev_arrow"><i class="fa-solid fa-chevron-left arrow-left"></i></button>',
     nextArrow:
-      '<button class="next_arrow"><i class="ion-chevron-right"></i></button>',
+      '<button class="next_arrow"><i class="fa-solid fa-chevron-right arrow-right"></i></button>',
     responsive: [
       {
         breakpoints: 400,
@@ -152,8 +152,8 @@
     dots: false,
     margin: 30,
     navText: [
-      '<i class="ion-chevron-left"></i>',
-      '<i class="ion-chevron-right"></i>',
+      '<i class="fa-solid fa-chevron-left arrow-left"></i>',
+      '<i class="fa-solid fa-chevron-right arrow-right"></i>',
     ],
     responsiveClass: true,
     responsive: {
@@ -177,8 +177,8 @@
     items: 4,
     dots: false,
     navText: [
-      '<i class="ion-chevron-left arrow-left"></i>',
-      '<i class="ion-chevron-right arrow-right"></i>',
+      '<i class="fa-solid fa-chevron-left arrow-left"></i>',
+      '<i class="fa-solid fa-chevron-right arrow-right"></i>',
     ],
     responsiveClass: true,
     responsive: {

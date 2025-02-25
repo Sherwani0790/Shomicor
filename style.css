@@ -2477,9 +2477,9 @@ p {
   position: absolute;
   top: 29px;
   left: -9px;
-  font-size: 20px;
-  height: 25px;
-  width: 21px;
+  font-size: 14px;
+  height: 16px;
+  width: 16px;
   color: black;
   padding: 2px;
   border-radius: 6px;
@@ -2487,11 +2487,11 @@ p {
 }
 .arrow-right {
   position: absolute;
-  top: 27px;
+  top: 29px;
   right: -12px;
-  font-size: 20px;
-  height: 25px;
-  width: 24px;
+  font-size: 14px;
+  height: 16px;
+  width: 16px;
   color: black;
   padding: 2px;
   border-radius: 6px;
