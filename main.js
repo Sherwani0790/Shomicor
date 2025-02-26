@@ -60,28 +60,28 @@
       '<button class="next_arrow"><i class="fa-solid fa-chevron-right arrow-right"></i></button>',
     responsive: [
       {
-        breakpoints: 400,
+        breakpoint: 400,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoints: 768,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         },
       },
       {
-        breakpoints: 992,
+        breakpoint: 992,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
         },
       },
       {
-        breakpoints: 1200,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
@@ -104,7 +104,7 @@
   $(".product_row1").slick({
     centerMode: true,
     centerPadding: "0",
-    slidesToShow: 5,
+    slidesToShow: 3,
     arrows: true,
     prevArrow:
       '<button class="prev_arrow"><i class="fa-solid fa-chevron-left arrow-left"></i></button>',
@@ -112,28 +112,28 @@
       '<button class="next_arrow"><i class="fa-solid fa-chevron-right arrow-right"></i></button>',
     responsive: [
       {
-        breakpoints: 400,
+        breakpoint: 400,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoints: 768,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         },
       },
       {
-        breakpoints: 992,
+        breakpoint: 992,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
         },
       },
       {
-        breakpoints: 1200,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
