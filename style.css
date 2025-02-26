@@ -356,7 +356,7 @@ ul {
 /* *****************Middle Header******************** */
 
 .header_middel {
-  padding: 40px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #ebebeb;
 }
 
@@ -513,14 +513,14 @@ ul {
 
 .cart_link span.cart_quantity {
   position: absolute;
-  left: -11px;
   width: 20px;
   line-height: 20px;
   text-align: center;
   background: #a8741a;
   color: #ffffff;
   border-radius: 50%;
-  top: 12px;
+  top: -12px;
+  right: 0;
 }
 
 .cart_link > a {
@@ -2562,6 +2562,10 @@ p {
 .arrow-right:hover {
   background: #a8741a;
   color: #fff;
+}
+.arrow-down {
+  font-size: 14px;
+  margin-left: 10px;
 }
 .single_banner img,
 .banner_thumb {
