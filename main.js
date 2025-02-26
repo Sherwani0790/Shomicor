@@ -11,7 +11,14 @@
   $(".mini_cart_close > a").on("click", function () {
     $(".mini_cart").removeClass("active");
   });
-
+  $(document).on("click", function (e) {
+    if (
+      !$(e.target).closest(".mini_cart").length &&
+      !$(e.target).closest(".cart_link").length
+    ) {
+      $(".mini_cart").removeClass("active");
+    }
+  });
   //sticky navbar
   $(window).on("scroll", function () {
     var scroll = $(window).scrollTop();
@@ -45,7 +52,6 @@
     autoplayTimeout: 6000,
     items: 1,
     dots: true,
-    
   });
 
   //product column responsive
