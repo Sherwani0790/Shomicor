@@ -2571,6 +2571,102 @@ p {
 .banner_thumb {
   /* border-radius: 12px; */
 }
+/* Contact us  */
+.contact_map {
+  margin-top: 67px;
+  margin-bottom: 67px;
+}
+.map-area #googleMap {
+  height: 460px;
+  width: 100%;
+}
+.contact_area {
+  margin-bottom: 70px;
+}
+.contact_message h3 {
+  font-size: 21px;
+  text-transform: capitalize;
+  color: #ffff;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+
+.contact_message p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.contact_message ul li {
+  padding: 13px 0;
+  border-top: 1px solid #ebebeb;
+}
+.contact_message ul li i {
+  margin-right: 10px;
+}
+.contact_message ul li a {
+  color: #c09578;
+}
+.contact_message ul li:last-child {
+  padding-bottom: 0;
+}
+.contact_message label {
+  line-height: 18px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contact_message .clr-red{
+  color: red;
+}
+.contact_message input {
+  border: 1px solid #ebebeb;
+  height: 45px;
+  background: #ffffff;
+  width: 100%;
+  padding: 0 20px;
+  color: #5a5a5a;
+}
+.contact_message textarea {
+  height: 170px;
+  border: 1px solid #ebebeb;
+  background: #ffffff;
+  resize: none;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  color: #5a5a5a;
+}
+.contact_message button {
+  font-weight: 400;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 30px;
+  text-transform: capitalize;
+  border: none;
+  background: #a8741a;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+.contact_message button:hover {
+  font-weight: 600;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 30px;
+  text-transform: capitalize;
+  border: none;
+  background: #e9c88f;
+  color: #000000;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
 /* Media Queries for Responsive */
 
 @media (max-width: 768px) {
