@@ -888,6 +888,7 @@ ul {
   text-transform: uppercase;
   color: #242424;
   font-weight: 500;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -947,7 +948,7 @@ ul {
   border: 1px solid #2d2d2d;
 }
 .header_black .main_menu nav > ul > li ul.mega_menu > li > a {
-  color: #ffffff;
+  color: #a8741a;
 }
 .header_black .main_menu nav > ul > li ul.mega_menu > li > a:hover {
   color: #a8741a;
@@ -1342,16 +1343,17 @@ ul {
 }
 
 .product_tab_button ul li a {
-  font-size: 20px;
+  font-size: 16px;
   color: #242424;
-  line-height: 48px;
+  line-height: 40px;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 600;
   display: inline-block;
   border-left: 2px solid #ebebeb;
   padding: 0 30px;
   border-radius: 2px;
   transition: 0.3s;
+  letter-spacing: 1px;
 }
 
 .product_tab_button ul li a:hover {
@@ -2813,4 +2815,31 @@ p {
     margin-bottom: 15px;
     color: #c09578;
   }
+  .main_menu nav ul li ul.mega_menu {
+    position: absolute;
+    min-width: 400px;
+    padding: 20px 25px 20px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0 0 0;
+    left: -100px;
+    right: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 9;
+    top: 100%;
+    text-align: left;
+    overflow: auto;
+  }
+  .footer_black .widgets_container > h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
 }
