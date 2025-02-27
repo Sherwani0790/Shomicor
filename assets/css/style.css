@@ -45,6 +45,11 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: #a8741a;
 }
+.dp-flex {
+  display: flex;
+  row-gap: 8px;
+  column-gap: 8px;
+}
 
 h1,
 h2,
@@ -389,7 +394,7 @@ ul {
   padding: 0 20px;
 }
 .logo a img {
-  border-radius: 12px;
+  /* border-radius: 12px; */
   height: 100px;
 }
 
@@ -919,7 +924,7 @@ ul {
 
 .header_black .main_menu nav > ul > li > a {
   color: #ffffff;
-  
+
   font-weight: 400;
   text-transform: capitalize;
   font-size: 18px;
@@ -931,7 +936,6 @@ ul {
 }
 .header_black .main_menu nav > ul > li ul.sub_menu li a {
   color: #ffffff;
-  
 }
 
 .header_black .main_menu nav > ul > li ul.sub_menu li a:hover {
@@ -944,7 +948,6 @@ ul {
 }
 .header_black .main_menu nav > ul > li ul.mega_menu > li > a {
   color: #ffffff;
-  
 }
 .header_black .main_menu nav > ul > li ul.mega_menu > li > a:hover {
   color: #a8741a;
@@ -1043,7 +1046,6 @@ ul {
   color: #fff;
   font-weight: 400;
   margin-bottom: 10px;
-  
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -1185,7 +1187,6 @@ ul {
 .banner_black .banner_content h2 {
   color: #a8741a;
   font-weight: 400;
-
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1244,20 +1245,20 @@ ul {
   left: 25px;
 }
 
-.banner_content p {
+.single_banner p {
   color: #7d7d7d;
   margin-bottom: 0;
 }
 
-.banner_content h2 {
-  color: #242424;
-  font-size: 24px;
+.single_banner h2 {
+  color: #a8741a;
+  font-size: 18px;
   font-weight: 700;
   line-height: 27px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
-.banner_content span {
-  color: #242424;
+.single_banner span {
+  color: #fff;
 }
 
 /* ****************banner section overs ************** */
@@ -1510,7 +1511,6 @@ ul {
 }
 
 .product_black_section .quick_button a {
- 
   font-size: 14px;
 }
 
@@ -1702,7 +1702,7 @@ ul {
 
 /* banner section  */
 .banner_fullwidth {
-  background: url(images/banner/banner2222.jpg);
+  background: url("../../images/banner/banner2222.jpg");
   margin-bottom: 64px;
 }
 
@@ -2558,6 +2558,7 @@ p {
 .single_banner img,
 .banner_thumb {
   /* border-radius: 12px; */
+  margin-bottom: 5px;
 }
 /* Contact us  */
 .contact_map {
@@ -2684,7 +2685,7 @@ p {
   text-align: justify;
 }
 .about_section ul {
-  list-style:circle !important;
+  list-style: circle !important;
   padding-left: 2rem !important;
 }
 
@@ -2812,5 +2813,4 @@ p {
     margin-bottom: 15px;
     color: #c09578;
   }
-  
 }
