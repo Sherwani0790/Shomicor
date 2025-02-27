@@ -2677,7 +2677,8 @@ p {
 .about_section img {
   max-width: 100%;
   width: 100%;
-  height: auto;
+  height: 400px;
+  border-radius: 8px;
 }
 .about_content {
   text-align: justify;
