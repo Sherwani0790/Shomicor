@@ -2597,7 +2597,17 @@ p {
   line-height: 24px;
   color: #fff;
   margin-bottom: 20px;
+  text-align: justify;
 }
+.contact_message p span {
+  font-size: 14px;
+  line-height: 24px;
+  color: #c09578;
+  margin-bottom: 20px;
+  text-align: justify;
+
+}
+
 .contact_message ul li {
   padding: 13px 0;
   border-top: 1px solid #ebebeb;
