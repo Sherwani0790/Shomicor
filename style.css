@@ -54,7 +54,6 @@ h5,
 h6 {
   font-weight: 400;
   margin-top: 0;
-  font-family: "Baloo 2", cursive;
 }
 
 h1 {
@@ -920,7 +919,7 @@ ul {
 
 .header_black .main_menu nav > ul > li > a {
   color: #ffffff;
-  font-family: serif;
+  
   font-weight: 400;
   text-transform: capitalize;
   font-size: 18px;
@@ -932,7 +931,7 @@ ul {
 }
 .header_black .main_menu nav > ul > li ul.sub_menu li a {
   color: #ffffff;
-  font-family: serif;
+  
 }
 
 .header_black .main_menu nav > ul > li ul.sub_menu li a:hover {
@@ -945,7 +944,7 @@ ul {
 }
 .header_black .main_menu nav > ul > li ul.mega_menu > li > a {
   color: #ffffff;
-  font-family: serif;
+  
 }
 .header_black .main_menu nav > ul > li ul.mega_menu > li > a:hover {
   color: #a8741a;
@@ -1044,7 +1043,7 @@ ul {
   color: #fff;
   font-weight: 400;
   margin-bottom: 10px;
-  font-family: "Baloo 2", serif;
+  
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -1186,7 +1185,7 @@ ul {
 .banner_black .banner_content h2 {
   color: #a8741a;
   font-weight: 400;
-  font-family: "Baloo 2", serif;
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1285,7 +1284,6 @@ ul {
 .product_black_section .product_tab_button ul.nav li a {
   border-left: 2px solid #2d2d2d;
   color: #ffffff;
-  font-family: "Baloo 2", serif;
 }
 
 .product_black_section .product_tab_button ul.nav li a:hover {
@@ -1349,7 +1347,6 @@ ul {
   text-transform: capitalize;
   font-weight: 700;
   display: inline-block;
-  font-family: "Baloo 2", serif;
   border-left: 2px solid #ebebeb;
   padding: 0 30px;
   border-radius: 2px;
@@ -1513,7 +1510,7 @@ ul {
 }
 
 .product_black_section .quick_button a {
-  font-family: "Baloo 2", serif;
+ 
   font-size: 14px;
 }
 
@@ -1560,8 +1557,6 @@ ul {
   color: #a8741a;
 }
 .product_black_section .product_content h3 {
-  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -1681,7 +1676,6 @@ ul {
 }
 
 .product_black_section .action_links ul li.add_to_cart a {
-  font-family: "Trebuchet MS", sans-serif;
 }
 
 .product_container button {
@@ -1726,7 +1720,6 @@ ul {
 
 .black_fullwidth .banner_text h2 {
   color: #fff;
-  font-family: serif;
   font-weight: 400;
 }
 
@@ -1892,7 +1885,6 @@ ul {
 .blog_content h3 a {
   color: #ffff;
   letter-spacing: 1px;
-  font-family: "Poppins", serif !important;
   font-weight: 500;
 }
 .blog_content h3 a:hover {
@@ -2072,7 +2064,6 @@ ul {
 
 .newsletter_black h2 {
   color: #ffffff;
-  font-family: serif;
   font-weight: 700;
   font-size: 35px;
   letter-spacing: 2px;
@@ -2106,7 +2097,6 @@ ul {
 }
 .newsletter_black .newsletter_content form button {
   position: absolute;
-  font-family: "Poppins", serif;
   content: "";
   right: 0;
   top: 0;
@@ -2148,7 +2138,6 @@ ul {
 }
 
 .text-overlay {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   position: absolute;
   left: 0;
   top: 0;
@@ -2200,7 +2189,6 @@ p {
 }
 .footer_black .widgets_container > h3 {
   color: #fff;
-  font-family: serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 26px;
@@ -2781,7 +2769,6 @@ p {
     text-transform: capitalize;
     font-weight: 700;
     display: inline-block;
-    font-family: "Baloo 2", serif;
     border-left: 2px solid #ebebeb;
     padding: 0px 24px;
     border-radius: 2px;
@@ -2806,4 +2793,23 @@ p {
   .newsletter_black .newsletter_content form {
     width: 100%;
   }
+  .about_content h1 {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  .about_content h1 span {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #c09578;
+  }
+  
 }
