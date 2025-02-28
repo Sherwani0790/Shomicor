@@ -1471,6 +1471,10 @@ ul {
   position: relative;
   margin-bottom: 8px;
 }
+.product_thumb img{
+  height: 250px;
+
+}
 
 .product_thumb a.secondary_img {
   position: absolute;
